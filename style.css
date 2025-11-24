@@ -715,4 +715,17 @@ footer {
         grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
         gap: 20px;
     }
+
+}
+@media (min-width:300px) and (max-width:1000px){
+    .timeline-year{
+        z-index: 100;
+    }
+    .timeline-content{
+        margin-left: 33px;
+    }
+    #hsc{
+        margin-left: 51px;
+
+    }
 }
